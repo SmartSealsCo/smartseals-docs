@@ -6,46 +6,54 @@ entries:
   version: 0.1
   folders:
 
-  - title: Tag archives
+  - title: Bases de datos
     output: web
     folderitems:
 
-      - title: Level 1
+      - title: 
         output: web
+        type: none
         subfolders:
 
-        - title: Level 2
+        - title: PostgreSQL
           output: web
           subfolderitems:
 
-            - title: Level 3
+            - title: 
               output: web
+              type: none
               subsubfolders:
 
-              - title: subTest
+              - title: Administración
                 output: web
                 subsubfolderitems:
                 
-                  - title: Sub Data
-                    url: /tag_troubleshooting.html
+                  - title: Dump y Restore
+                    url: /pgsql_restore.html
                     output: web
 
-      - title: Troubleshooting pages4
+  - title: Servicios En la nube
+    output: web
+    folderitems:
+
+      - title: 
         output: web
+        type: none
         subfolders:
 
-        - title: Troubleshooting pages5
+        - title: AWS
           output: web
           subfolderitems:
 
-            - title: Test
+            - title: 
               output: web
+              type: none
               subsubfolders:
 
-              - title: subTest
+              - title: CD-CI
                 output: web
                 subsubfolderitems:
                 
-                  - title: Sub Data
-                    url: /tag_troubleshooting2.html
+                  - title: Montaje CC, CD, CP con Bitbucket (EC2)
+                    url: /montaje_cd-ci_aws.html
                     output: web

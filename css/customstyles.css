@@ -442,6 +442,11 @@ a.accordion-collapsed {
     color: #f5f5f5;
 }
 
+.center_image {
+    margin: auto !important;
+    display: block !important;
+}
+
 .nav li ul li.active_alt>a {
     background-color: #1c95a0 !important;
     color: #f5f5f5;
@@ -476,12 +481,16 @@ a.accordion-collapsed {
     box-shadow: 5px 10px 20px #4765a2;
 }
 
-.nav ul li ul li a {
+.nav li ul li a {
     padding-left: 20px;
 }
 
-.nav ul li ul li ul li a {
+.nav ul li ul li a {
     padding-left: 40px;
+}
+
+.nav ul li ul li ul li a {
+    padding-left: 60px;
 }
 
 .nav li.thirdlevel>a {
