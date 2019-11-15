@@ -2,7 +2,8 @@
 title:  "Welcome to Jekyll!"
 categories: jekyll update
 permalink: myupdate.html
-tags: [news]
+tags: [post]
+hide_sidebar: true
 ---
 
 
@@ -16,4 +17,3 @@ Theme updates:
 - added blog feature
 - sidebars configurable per page
 
-{% include links.html %}

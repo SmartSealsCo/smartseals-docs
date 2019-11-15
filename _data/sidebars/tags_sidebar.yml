@@ -1,0 +1,20 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Version
+  version: 0.2
+  folders: 
+    
+    - title: Main tags
+      output: web
+      type: none
+      folderitems:
+
+      - title: page
+        output: web
+        url: /tag_page.html
+
+      - title: post
+        output: web
+        url: /tag_post.html

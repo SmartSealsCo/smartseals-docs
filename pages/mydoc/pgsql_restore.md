@@ -1,10 +1,11 @@
 ---
-title: Realizar Dump y Restore en base de datos PostgreSQL
+title: Dump y Restore de Database PostgreSQL (Version 10)
 keywords: dump restore
-summary: "Aprende a realizar un dump y restore de postgresql"
+summary: "Aprende a realizar un dump y restore en postgresql"
 sidebar: mydoc_sidebar
 permalink: pgsql_restore.html
 folder: mydoc
+tags: [page]
 ---
 
 En este post se explica como hacer un backup en la base de datos de PostgreSQL con las opciones principales para hacer un correcto backup, por lo tanto, no contiene todas las funciones para generar un **Dump** y un **Restore**, la documentación completa para su revisión se encuentran en las siguientes url:
@@ -17,7 +18,7 @@ En este post se explica como hacer un backup en la base de datos de PostgreSQL c
 Para generar el dump de una base de datos se debe ejecutar el comando `pd_dump`, este comando se ejecuta de la forma:
 
 >pg_dump [**connection-option**...] [**option**...] [**dbname**]
-
+Realizar Dump y Restore en base de datos PostgreSQL
 Las opciones son las que nos permiten saber como queremos generar el dump entre entras se encuentran:
 
 - ### Requeridos

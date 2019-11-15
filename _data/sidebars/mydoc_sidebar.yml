@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Version
-  version: 0.1
+  version: 0.2
   folders:
 
   - title: Bases de datos
@@ -57,3 +57,28 @@ entries:
                   - title: Montaje CC, CD, CP con Bitbucket (EC2)
                     url: /montaje_cd-ci_aws.html
                     output: web
+
+  - title: Smart Tracking System
+    output: web
+    folderitems:
+
+      - title: 
+        output: web
+        type: none
+        subfolders:
+
+        - title: Back-End
+          output: web
+          subfolderitems:
+
+            - title: Overview
+              url : #
+              output: web
+
+        - title: Front-End
+          output: web
+          subfolderitems:
+
+            - title: Overview
+              url: #
+              output: web

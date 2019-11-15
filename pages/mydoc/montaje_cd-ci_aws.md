@@ -5,6 +5,7 @@ summary: "Aprende a integrar CC, CD y CP con Bitbucket"
 sidebar: mydoc_sidebar
 permalink: montaje_cd-ci_aws.html
 folder: mydoc
+tags: [page]
 ---
 
 # Resumen
