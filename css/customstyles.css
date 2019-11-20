@@ -1236,6 +1236,17 @@ table thead th code.highlighter-rouge {
     background-color: transparent;
 }
 
+.print {
+    width: 100% !important;
+    background: none;
+}
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+    min-height: 50vh;
+}
 
 .box {
     padding: 10px;
@@ -1248,6 +1259,8 @@ table thead th code.highlighter-rouge {
     hyphens: auto;
     float: left;
     font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
 }
 
 .box:hover {
@@ -1262,9 +1275,9 @@ table thead th code.highlighter-rouge {
 }
 
 #userMap .active {
-    background-color: #d6f5d6;
-    border: 1px solid #555;
+    background: linear-gradient(to right, #0775a2, #0e8e9e);
     font-weight: bold;
+    color: white;
 }
 
 h2.userMapTitle {

@@ -99,6 +99,17 @@ defaults:
       sidebar: home_sidebar
       topnav: topnav
 
+  -
+    scope:
+      path: "pages/none"
+      type: "none"
+    values:
+      layout: "none"
+      comments: false
+      search: false
+      sidebar: home_sidebar
+      topnav: topnav
+
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
@@ -113,3 +124,5 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 
 github: [metadata]
+
+theme: jekyll-theme-cayman

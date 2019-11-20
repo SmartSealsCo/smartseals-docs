@@ -18,3 +18,7 @@ entries:
       - title: post
         output: web
         url: /tag_post.html
+
+      - title: poda
+        output: web
+        url: /tag_post.html

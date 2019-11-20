@@ -1,0 +1,28 @@
+<!-- Service Tabs -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">{{include.tab_title}}</h2>
+    </div>
+    <div class="col-lg-12">
+
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+            {% for tab in include.tab_names %}
+            {% assign tabs = tab.first | capitalize | split: "_" %}
+            <li class="{% if include.tab_names.first.last == tab.last %}{{ "active" }}{% endif %}"><a
+                    href="{{"#" | append: tab.last}}"
+                    data-toggle="tab">{% for titles in tabs %}{{ titles  | capitalize | append: " "}}{% endfor %}</a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <div id="myTabContent" class="tab-content">
+            {% for tab_content in include.tab_names %}
+            <div class="tab-pane fade {% if include.tab_names.first.last == tab_content.last %}{{ "active in" }}{% endif %}"
+                id="{{tab_content.last}}">
+                <iframe src="{{tab_content.last | append: ".html"}}"></iframe>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
