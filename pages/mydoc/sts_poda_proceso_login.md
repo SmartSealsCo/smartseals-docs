@@ -9,7 +9,7 @@ simple_map: true
 map_name: sts_poda_login_map
 box_number: 1
 tags: [page]
-tab_names: [["Login Administrador", sts_poda_proceso_login_tab1], ["Login Planificador", sts_poda_proceso_login_tab2]]
+tab_names: [["Login Administrador", test1], ["Login Planificador", sts_poda_proceso_login_tab2]]
 ---
 
 Sample Content
