@@ -24,12 +24,64 @@ entries:
               type: none
               subsubfolders:
 
-              - title: Administración
+              - title: Configuración
                 output: web
                 subsubfolderitems:
                 
+                  - title: postgresql.conf
+                    url: /pgsql_config_postgres.html
+                    output: web
+
+                  - title: pg_hba.conf
+                    url: /pgsql_config_hba.html
+                    output: web
+
+              - title: Replicación
+                output: web
+                subsubfolderitems:
+                
+                  - title: Replicación por Streaming
+                    url: /pgsql_replication_streaming.html
+                    output: web
+                  
+                  - title: Replicación por Slots
+                    url: /pgsql_replication_slots.html
+                    output: web
+
+                  - title: Intercambio entre servidores
+                    url: /pgsql_replication_wal_exchange.html
+                    output: web 
+
+                  - title: Easy Failback
+                    url: /pgsql_replication_easy_failback.html
+                    output: web
+
+                  - title: Replication Failback
+                    url: /pgsql_replication_replication_failback.html
+                    output: web
+
+              - title: Recuperación
+                output: web
+                subsubfolderitems:
+
+                  - title: Resumen
+                    url: /pgsql_backup_overview.html
+                    output: web
+                
                   - title: Dump y Restore
-                    url: /pgsql_restore.html
+                    url: /pgsql_backup_restore.html
+                    output: web
+
+                  - title: PITR (Point In Time Recovery)
+                    url: /pgsql_backup_pitr.html
+                    output: web
+                  
+              - title: Guías
+                output: web
+                subsubfolderitems:
+                
+                  - title: Replicación de base de datos Postgresql (Version 10) con HAProxy y Nodejs
+                    url: /guide_pgsql_replication_with_haproxy.html
                     output: web
 
   - title: Servicios En la nube
@@ -54,8 +106,8 @@ entries:
                 output: web
                 subsubfolderitems:
                 
-                  - title: Montaje CC, CD, CP con Bitbucket (EC2)
-                    url: /montaje_cd-ci_aws.html
+                  - title: Montaje CD/CI con Bitbucket (EC2)
+                    url: /aws_montaje_cd-ci.html
                     output: web
 
   - title: Smart Tracking System

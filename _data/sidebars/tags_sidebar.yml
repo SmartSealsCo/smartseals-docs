@@ -22,3 +22,15 @@ entries:
       - title: poda
         output: web
         url: /tag_post.html
+
+      - title: pgsql
+        output: web
+        url: /tag_pgsql.html
+
+      - title: node
+        output: web
+        url: /tag_node.html
+
+      - title: haproxy
+        output: web
+        url: /tag_haproxy.html

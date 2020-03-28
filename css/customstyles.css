@@ -16,13 +16,18 @@ body {
 }
 
 .container-fix {
-    position: absolute !important;
     right: 3%;
 }
 
 @media (min-width:1560px) {
     .container {
         width: 1510px !important;
+    }
+}
+
+@media (min-width:770px) {
+    .container-fix {
+        position: absolute !important;
     }
 }
 

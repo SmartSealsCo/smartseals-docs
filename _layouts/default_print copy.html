@@ -3,14 +3,16 @@
 <html>
 
 <head>
-    {% include head.html %}
+    {% include head_print.html %}
+
+
 </head>
 
 <body
     class="{% if page.type == "title"%}title{% elsif page.type == "frontmatter" %}frontmatter{% elsif page.type == "first_page" %}first_page{% endif %} print">
 
     <!-- Page Content -->
-    <div>
+    <div class="container">
         <!-- Content Column -->
         <div class="col-md-12">
             {% unless page.toc == false %}

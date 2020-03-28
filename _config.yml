@@ -101,7 +101,7 @@ defaults:
 
   -
     scope:
-      path: "pages/none"
+      path: ""
       type: "none"
     values:
       layout: "none"

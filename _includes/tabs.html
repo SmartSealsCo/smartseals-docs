@@ -1,7 +1,7 @@
 <!-- Service Tabs -->
 <div class="row">
     <div class="col-lg-12">
-        <h2 class="page-header">{{include.tab_title}}</h2>
+        {% if include.tab_title != "" %}<h2 class="page-header">{{include.tab_title}}</h2>{% endif %}
     </div>
     <div class="col-lg-12">
 

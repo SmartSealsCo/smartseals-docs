@@ -1,12 +1,9 @@
 ---
-title: Dump y Restore de Database PostgreSQL (Version 10)
+title: Archivo de configuracion pg_hba.conf
 keywords: dump restore
 summary: "Aprende a realizar un dump y restore en postgresql"
 sidebar: mydoc_sidebar
-permalink: pgsql_restore.html
-simple_map: true
-map_name: sts_poda_login_map
-box_number: 2
+permalink: pgsql_config_hba.html
 folder: mydoc
 tags: [page]
 ---
